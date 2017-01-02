@@ -1,17 +1,27 @@
-.testing {
-  width: percentage(5/7);
-}
-
-.blue {
-  color: #0080FF;
-}
+// Variables
+$black: #333333;
+$white: #dddddd;
 
 body {
-  background: #333;
+  background: $white;
+}
+
+.pageWrapper {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.baseFont {
+  color: $black;
+  font-family: arial, sans-serif;
 }
 
 .headline {
-  color: #fff;
-  font-family: arial, sans-serif;
-  font-size: 32px;
+  @extend .baseFont;
+  font-size: 36px;
+}
+
+.content {
+  @extend .baseFont;
+  
 }

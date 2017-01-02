@@ -1,13 +1,13 @@
-.testing {
-  width: 71.42857%; }
-
-.blue {
-  color: #0080FF; }
-
 body {
-  background: #333; }
+  background: #dddddd; }
+
+.pageWrapper {
+  margin: 0 auto;
+  width: 80%; }
+
+.baseFont, .headline, .content {
+  color: #333333;
+  font-family: arial, sans-serif; }
 
 .headline {
-  color: #fff;
-  font-family: arial, sans-serif;
-  font-size: 32px; }
+  font-size: 36px; }
